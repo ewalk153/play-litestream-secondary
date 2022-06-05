@@ -1,0 +1,5 @@
+# primary/litestream.yml
+addr: ":9090"
+
+dbs:
+  - path: ./foo.db

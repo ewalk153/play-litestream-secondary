@@ -1,0 +1,8 @@
+# secondary/litestream.yml
+addr: ":9091"
+
+dbs:
+  - path: foo.db
+    upstream:
+      path: $UPSTREAM_PATH/foo.db
+      url: http://127.0.0.1:9090
