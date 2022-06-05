@@ -1,0 +1,9 @@
+bin/litestream
+primary/foo.db
+primary/foo.db-shm
+primary/foo.db-wal
+primary/foo.db-litestream/
+secondary/foo.db
+secondary/foo.db-shm
+secondary/foo.db-wal
+secondary/foo.db-litestream/
